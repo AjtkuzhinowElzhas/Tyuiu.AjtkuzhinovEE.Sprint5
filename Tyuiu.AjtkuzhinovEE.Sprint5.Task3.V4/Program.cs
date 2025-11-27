@@ -1,5 +1,4 @@
-﻿using Tyuiu.AjtkuzhinovEE.Sprint5.Task0.V5.Lib;
-
+﻿using Tyuiu.AjtkuzhinovEE.Sprint5.Task3.V4.Lib;
 internal class Program
 {
     private static void Main(string[] args)
@@ -9,7 +8,7 @@ internal class Program
         DataService ds = new DataService();
 
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                       *");
+        Console.WriteLine("* ИСХОДНЫЕ ДАННЫНЕ:                                                       *");
         Console.WriteLine("***************************************************************************");
 
         Console.WriteLine("x = " + x);
