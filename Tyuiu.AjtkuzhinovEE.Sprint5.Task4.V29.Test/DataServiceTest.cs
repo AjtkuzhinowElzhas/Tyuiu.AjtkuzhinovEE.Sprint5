@@ -15,7 +15,7 @@ namespace Tyuiu.AjtkuzhinovEE.Sprint5.Task4.V29.Test
 
             bool fileExists = fileInfo.Exists;
             bool wait = true;
-            Assert.AreEqual(wait, fileExists);
+            Assert.AreEqual(wait, fileExists); 
         }
     }
 }
