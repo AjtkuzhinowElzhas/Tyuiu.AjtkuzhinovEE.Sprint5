@@ -22,8 +22,8 @@ namespace Tyuiu.AjtkuzhinovEE.Sprint5.Task7.V16.Lib
                 string line;
                 while ((line = reader.ReadLine()) != null) 
                 {
-                    string strLine = ""; // Перенес сюда для очистки каждой строки
-                    string[] words = line.Split(' '); // Разбиваем строку на слова
+                    string strLine = ""; 
+                    string[] words = line.Split(' '); 
                     for (int i = 0; i < words.Length; i++) 
                     {
                         if ((words[i].Length == 2))
@@ -32,7 +32,7 @@ namespace Tyuiu.AjtkuzhinovEE.Sprint5.Task7.V16.Lib
                         }
                         else
                         {
-                            strLine += words[i] + " "; // Оставляем как есть
+                            strLine += words[i] + " ";
                         }
                     }
                     File.AppendAllText(pathSaveFile, strLine + Environment.NewLine);
