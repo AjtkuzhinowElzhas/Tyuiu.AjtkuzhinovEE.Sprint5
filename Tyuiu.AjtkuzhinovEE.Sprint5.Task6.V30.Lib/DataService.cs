@@ -14,19 +14,18 @@ namespace Tyuiu.AjtkuzhinovEE.Sprint5.Task6.V30.Lib
                 
                 while ((line = reader.ReadLine()) != null)
                 {
-                    // Разбиваем строку на слова и сразу проверяем каждое
+                   
                     int start = 0;
                     for (int i = 0; i <= line.Length; i++)
                     {
-                        // Если достигли пробела или конца строки
                         if (i == line.Length || line[i] == ' ')
                         {
-                            // Проверяем длину слова
+                            
                             if (i - start == 8)
                             {
                                 count++;
                             }
-                            start = i + 1; // Начало следующего слова
+                            start = i + 1; 
                         }
                     }
                 }
